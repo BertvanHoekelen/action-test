@@ -4,5 +4,6 @@ description: Checks the code style
 branding:
   icon: code
   colorr: orange
-using: 'docker'
-image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

@@ -8,5 +8,6 @@ inputs:
   ssh-key:
     description: SSH key that has access to required composer files
     required: true
-using: 'docker'
-image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

@@ -4,5 +4,6 @@ description: Runs tests
 branding:
   icon: code
   colorr: orange
-using: 'docker'
-image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
