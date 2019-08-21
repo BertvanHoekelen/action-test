@@ -1,0 +1,12 @@
+name: Build
+author: Bert van Hoekelen
+description: Builds the application
+branding:
+  icon: terminal
+  colorr: black
+inputs:
+  ssh-key:
+    description: SSH key that has access to required composer files
+    required: true
+using: 'docker'
+image: 'Dockerfile'

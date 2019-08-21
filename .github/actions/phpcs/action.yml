@@ -1,0 +1,8 @@
+name: PHP Code Style Analysis
+author: Bert van Hoekelen
+description: Checks the code style
+branding:
+  icon: code
+  colorr: orange
+using: 'docker'
+image: 'Dockerfile'

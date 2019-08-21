@@ -1,0 +1,8 @@
+name: PHPUnit
+author: Bert van Hoekelen
+description: Runs tests
+branding:
+  icon: code
+  colorr: orange
+using: 'docker'
+image: 'Dockerfile'
